@@ -521,6 +521,16 @@ section.active {
   box-sizing: border-box;
 }
 
+#syarat {
+  min-height: 100vh;        /* biar bisa lebih tinggi dari layar */
+  padding: 100px 30px 60px; /* jarak atas 100px biar gak ketutup header */
+  overflow-y: auto;          /* aktifkan scroll untuk bagian ini */
+  box-sizing: border-box;
+  text-align: left;
+  line-height: 1.6;
+}
+
+
 #syarat .section-inner {
   width: 85%; /* 🔹 dari 90% → agak dipersempit */
   max-width: 700px; /* 🔹 dari 750px → lebih ramping */
@@ -748,5 +758,6 @@ section.active {
 .cart-item button {
   margin-left: auto; /* tombol geser ke kanan */
 }
+
 
    
