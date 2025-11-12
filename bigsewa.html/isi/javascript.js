@@ -166,7 +166,7 @@ totalPriceEl.textContent = "Total: Rp0";
         const price = item.querySelector(".price").textContent;
         message += `• ${name} - ${price}\n`;
       });
-      message += `\n${totalPriceEl.textContent}\n\nKirim dari website BIG SEWA 🌸`;
+      message += `\n${totalPriceEl.textContent}\n\Terimakasih `;
 
       const whatsappNumber = "6285745565042"; // ganti nomor WA kamu
       const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
@@ -177,3 +177,4 @@ totalPriceEl.textContent = "Total: Rp0";
 
 
 })();
+
