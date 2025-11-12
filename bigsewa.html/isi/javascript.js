@@ -168,11 +168,12 @@ totalPriceEl.textContent = "Total: Rp0";
       });
       message += `\n${totalPriceEl.textContent}\n\nKirim dari website BIG SEWA 🌸`;
 
-      const whatsappNumber = "6281234567890"; // ganti nomor WA kamu
+      const whatsappNumber = "6285745565042"; // ganti nomor WA kamu
       const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
       window.open(whatsappURL, "_blank");
     });
   }
 });
+
 
 })();
